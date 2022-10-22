@@ -1,0 +1,595 @@
+body { 
+    background-color: black;
+    color: #FFFFFF;
+;
+}
+
+button {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    font-size: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0;
+}
+
+/* 
+div.col {
+    padding-right: 8px;
+    padding-left: 0px;
+}
+
+.col_2 {
+    display: block;
+} */
+
+.subheader_logo {
+    display:flex;
+    justify-content: right;
+    padding-top: 23px;
+    padding-left: 85px;
+
+}
+
+.subheader_official {
+    display: block;
+    padding-top: 59px;
+    padding-left: 8px;
+    color: #FFFFFF;
+
+}
+
+.subheader_humon {
+    display: flex;
+    position: absolute;
+    justify-content: left;
+    padding-top: 59px;
+    padding-left: 48px;
+    color: #FFFFFF;
+}
+
+.subheader_login {
+    display: flex;
+    position: absolute;
+    padding-top: 59px;
+    padding-left: 82px;
+    color: #FFFFFF;
+}
+
+.subheader_login_line {
+    display: flex;
+    position: absolute;
+    padding-top: 84px;
+    padding-left: 76px;
+    color: #FFFFFF;
+}
+
+.promo_header {
+    display: block;
+    justify-content: right;
+    color: #FFFFFF;
+    padding-top: 143px;
+    padding-left: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+}
+
+.promo_line {
+    display: block;
+    padding-top: 88px;
+    padding-left: 103px;
+}
+
+.promo_descr {
+    display: flex;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    padding-top: 129px;
+    padding-left: 31px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.Iphone_1 {
+    display: block;
+    position: absolute;
+    top: 5px;
+    padding-right: 45px;
+}
+
+.promo_btn {
+    display: block;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 329px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 70px;
+}
+
+.Apps_1 {
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    right: 163px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;;
+}
+
+.box_title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.box_title_text {
+    display: block;
+    justify-content: center;
+}
+
+.box_title_text_1 {
+    padding: 64px 73px 0px 55px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.box_title_text_2 {
+    padding: 97px 123px 0px 54px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.box_title_email {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 234px 62px 55px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.box_title_login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 406px 94px 54px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.Mission_title {
+    padding: 236px 163px 0px 50px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+}
+
+.Mission_text {
+    padding: 23px 206px 0px 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.ID_scanner {
+    position: relative;
+    min-height: 717px;
+    background: url(../icons/Section_3/background.jpg) center center/cover no-repeat;
+}
+
+.PhoneId_1 {
+    display: flex;
+    position: absolute;
+    padding: 25% 0px 0px 100px;
+}
+
+.PhoneId_2 {
+    display: flex;
+    position: absolute;
+    padding: 25% 0px 0px 0px;
+}
+
+.Id_title {
+    display: flex;
+    position: absolute;
+    padding: 50% 0px 0px 0px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+}
+
+.Id_text {
+    display: flex;
+    position: absolute;
+    padding: 55% 150px 0px 0px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.BiTool_title {
+    padding: 530px 25px 0px 100px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+}
+
+.BiTool_text {
+    padding: 23px 126px 0px 100px;
+}
+
+.Tool_1 {
+    display: block;
+    padding-top: 450px;
+    padding-left: 337px;
+}
+
+.Tool_2 {
+    display: block;
+    position: absolute;
+    padding-top: 37px;
+    padding-left: 157px;
+}
+
+.Tool_3 {
+    display: block;
+    position: absolute;
+    padding-left: 462px;
+    padding-top: 32px;
+}
+
+.Tool_4 {
+    display: block;
+    position: absolute;
+    padding-top: 99px;
+    padding-left: 25px;
+}
+
+.Tool_5 {
+    display: block;
+    position: absolute;
+    padding-top: 143px;
+    padding-left: 280px;
+}
+
+.Tool_6 {
+    display: block;
+    position: absolute;
+    padding-top: 243px;
+    padding-left: 206px;
+}
+
+.Tool_7 {
+    display: block;
+    position: absolute;
+    padding-top: 316px;
+    padding-left: 447px;
+}
+
+.Nightlike {
+    display: block;
+    position: absolute;
+    padding-top: 550px;
+    padding-left: 602px;
+}
+
+.QR_code {
+    background: url(../icons/Section_5/background_2_1.jpg) left no-repeat, url(../icons/Section_5/background_2_2.jpg) right no-repeat;
+    display: block;
+    background-position-y: top;
+    margin-top: 452px;
+}
+
+.QR_code_title {
+    display: block;
+    padding: 575px 0px 0px 195px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+}
+
+.QR_code_text {
+    display: block;
+    padding: 23px 0px 0px 195px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.Apps_2 {
+    display: block;
+    padding: 58px 0px 0px 195px;
+}
+
+.QR_Iphone_1 {
+    padding: 220px 0px 0px 142px;
+}
+
+.QR_Iphone_2 {
+    padding: 566px 0px 0px 80px;
+}
+
+.Notab {
+    background: url(../icons/Section_6/Notab.svg) center center/cover no-repeat;
+    margin-top: 150px;
+    height: 496px;
+}
+
+.Notab_Iphone {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 562px;
+    padding-right: 70px;
+}
+
+.Notab_Phone {
+    position: absolute;
+}
+
+.Arrow {
+    padding-top: 88px;
+}
+
+.Notab_text {
+    padding: 15px 0px 0px 80px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.Notab_text_1 {
+    padding: 80px 0px 0px 100px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+}
+
+.Notab_text_2 {
+    display: flex;
+    justify-content: end;
+    padding: 117px 100px 0px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.Order_title {
+    display: flex;
+    justify-content: flex-end;
+    padding: 504px 180px 0px 0px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+}
+
+.Order_text {
+    display: flex;
+    justify-content: flex-end;
+    padding: 23px 211px 0px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.Order_Iphone {
+    display: flex;
+    justify-content: center;
+}
+
+.Box_text {
+    display: block;
+    position: absolute;
+}
+
+.Box_text_1 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 860px 387px 0px 786px;
+}
+
+.text_1 {
+    display: block;
+    justify-content: center;
+    padding: 22px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.Box_text_2 {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    background-color: black;
+    margin: 56px 607px 0px 287px;
+}
+
+.text_2 {
+    padding: 30px 26px 29px 26px;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.Box_text_3 {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    background-color: black;
+    margin: 358px 249px 0px 990px;
+}
+
+.text_3 {
+    padding: 19px 24px 18px 23px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.Box_text_4 {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    background-color: black;
+    margin: 449px 755px 0px 509px;
+}
+
+.text_4 {
+    padding: 19px 25px 20px 25px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+.Notab_2 {
+    background: url(../icons/Section_7/Notab.jpg) center center/cover no-repeat;
+}
+
+.Notab_phone_2 {
+    display: flex;
+    justify-content: center;
+    padding: 329px 289px 292px 292px;
+}
+
+.Notab_img {
+    position: absolute;
+    padding: 354px 385px;
+}
+
+.Get_touch_title {
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+}
+
+.Get_touch_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 15px;
+  }
+
+.registerbtn {
+    border: 1px solid #f1f1f1;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }
+
+.Register_name {
+    display: flex;
+    justify-content: center;
+  }
+
+.Register_venue_name {
+    display: flex;
+    justify-content: center;
+  }
+
+.Register_venue_city {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-inline-end: 0px;
+  }
+
+.Register_state_city {
+    display: flex;
+    justify-content: flex-start;
+    width: 47%;
+    margin-inline-start: 21px;
+  }
+
+.Register_email {
+    display: flex;
+    justify-content: center;
+  }
+
+.Register_subject {
+    display: flex;
+    justify-content: center;
+  }
+
+.Register_message {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  }
+
+input[name="message"] {
+    padding: 0px 0px 115px 15px;
+}
+
+.Register_send {
+    display: flex;
+    justify-content: center;
+  }
+
+.footer_title {
+    display: flex;
+    justify-content: center;
+    padding-top: 91px;
+}
+
+.footer_apps {
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 155px;
+    padding-bottom: 86px;
+}
